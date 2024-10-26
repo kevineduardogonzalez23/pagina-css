@@ -1,0 +1,27 @@
+{
+ margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+section:nth-child(2){
+  background-color: brown;
+}
+section:nth-child(3){
+  background-color: rgb(255, 140, 1);
+}
+
+div{
+  width: 400px;
+  height: 400px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
